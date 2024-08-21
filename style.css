@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7e52a0;
+  font-family: "Ubuntu", sans-serif;
+  height: 95vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #181f1c;
+  font-size: 3.2rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.main {
+  width: 400px;
+  max-width: 100%;
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 6rem;
+  width: 6rem;
+  /* padding: 3.2rem; */
+  border-radius: 20%;
+  border: none;
+  background-color: aliceblue;
+  color: #08a4bd;
+  font-size: 4rem;
+  font-weight: 500;
+  box-shadow: 2px 4px 6px rgb(46, 1, 28);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.box:hover {
+  background-color: #e6bccd;
+}
+
+.btn {
+  margin: 1rem auto 0 auto;
+  padding: 0.5rem;
+  height: 3rem;
+  width: auto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: #181f1c;
+  color: #e6bccd;
+  border-radius: 10%;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.resetBtn{
+  margin-bottom: 4rem;;
+}
+
+.btn:hover {
+  background-color: #e6bccd;
+  color: #181f1c;
+  font-weight: 600;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.winMsg{
+  width: 100vw;
+  height: 98vh;
+  text-align: center;
+  padding: 14rem;
+
+}
+.winMsg h2{
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  color: #e6bccd;
+  font-weight: 600;
+}
+
+.hide{
+  display: none;
+}
